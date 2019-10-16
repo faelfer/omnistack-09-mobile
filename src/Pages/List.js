@@ -22,6 +22,7 @@ export default function List() {
             <ScrollView>
                 {techs.map(tech => <SpotList key={tech} tech={tech} />)}
             </ScrollView>
+
         </SafeAreaView>
     )
 }
